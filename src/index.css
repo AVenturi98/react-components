@@ -1,0 +1,62 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+
+.card {
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    width: 600px;
+}
+
+.card_img {
+    width: 100%;
+    object-position: top;
+}
+
+.image{
+    width: 100%;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.title_card {
+    font-weight: bold;
+    margin: 0.5rem auto;
+}
+
+.description_card {
+    margin: 1rem auto;
+}
+
+.btn {
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+.main__footer {
+    background-color: rgb(92, 92, 92);
+    color:aliceblue;
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem
+}
