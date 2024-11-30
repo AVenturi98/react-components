@@ -4,6 +4,13 @@
     border: solid 1px black;
     border-radius: 0.5rem;
     width: 600px;
+    box-shadow: black 0 20px 30px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: 300ms;
+    box-shadow: black 0 10rem 15rem;
 }
 
 .cardImg {
@@ -13,6 +20,7 @@
 
 .image {
     width: 100%;
+    object-fit: cover;
 }
 
 .cardBody {
