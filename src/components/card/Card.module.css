@@ -11,7 +11,7 @@
     object-position: top;
 }
 
-.image{
+.image {
     width: 100%;
 }
 
@@ -35,4 +35,12 @@
     padding: 0.3rem;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(0.96);
+}
+
+.btn:active {
+    background-color: yellowgreen;
 }
